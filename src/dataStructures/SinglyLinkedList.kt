@@ -12,7 +12,7 @@ data class Node<T>(var value: T, var next: Node<T>? = null) {
     }
 }
 
-class LinkedList<T> {
+private class LinkedList<T> {
     private var head:Node<T>? = null
     private var tail:Node<T>? = null
     private var size = 0
